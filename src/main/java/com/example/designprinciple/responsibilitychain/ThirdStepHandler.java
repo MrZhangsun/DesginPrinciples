@@ -9,7 +9,7 @@ public class ThirdStepHandler extends ResponsibilityHandler {
 
     @Override
     protected void handle() {
-        System.out.println("Third step validation pass");
+        System.out.println("Third step commonValidation pass");
         if (this.getNextHandler() != null) {
             this.getNextHandler().handle();
         }

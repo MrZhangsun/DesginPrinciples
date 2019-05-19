@@ -9,7 +9,7 @@ public class SecondStepHandler extends ResponsibilityHandler {
 
     @Override
     protected void handle() {
-        System.out.println("Second step validation pass");
+        System.out.println("Second step commonValidation pass");
         if (this.getNextHandler() != null) {
             this.getNextHandler().handle();
         }
